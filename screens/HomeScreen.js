@@ -11,7 +11,7 @@ const HomeScreen = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await axios.get("http://10.0.0.7:3000/posts", {
+      const response = await axios.get("https://rn-atlas-image-picker-1.onrender.com/posts", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

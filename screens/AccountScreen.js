@@ -93,7 +93,7 @@ const AccountScreen = ({ navigation }) => {
   const updateUserProfileImage = async (imageUrl) => {
     try {
       const response = await axios.put(
-        `http://10.0.0.7:3000/users/${user.id}`,
+        `https://rn-atlas-image-picker-1.onrender.com/users/${user.id}`,
         { profileImageUrl: imageUrl },
         {
           headers: {

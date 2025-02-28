@@ -11,7 +11,7 @@ const RegisterScreen = ({ navigation }) => {
 
   const handleRegister = async () => {
     try {
-      await axios.post("http://10.0.0.7:3000/register", {
+      await axios.post("https://rn-atlas-image-picker-1.onrender.com/register", {
         name,
         email,
         password,

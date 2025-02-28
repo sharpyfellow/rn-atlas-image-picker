@@ -19,7 +19,7 @@ export default function CreatePostScreen({ navigation }) {
 
     try {
       const response = await axios.post(
-        "http://10.0.0.7:3000/posts", // Replace with your machine's IP address
+        "https://rn-atlas-image-picker-1.onrender.com/posts", // Replace with your machine's IP address
         { title, description },
         {
           headers: {
